@@ -9,6 +9,8 @@ function App() {
     <Router>
       <Routes>
         <Route exact path="/" element={<WholeApp />} />
+        <Route exact path="*" element={<WholeApp />} />
+
         </Routes>
         </Router>
   );
